@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="index,follow">
+  <title>Privacy Policy — Forever Buddy</title>
+  <style>
+    :root { color-scheme: light; font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+    body { max-width: 860px; margin: 0 auto; padding: 24px; color: #202124; line-height: 1.65; }
+    h1, h2 { line-height: 1.25; }
+    h1 { margin-bottom: .25rem; }
+    .updated { color: #5f6368; margin-top: 0; }
+    .draft-warning { padding: 14px 16px; border: 2px solid #b3261e; background: #fce8e6; color: #7a1712; border-radius: 6px; }
+    a { color: #1558d6; }
+  </style>
+</head>
+<body>
+  <h1>Privacy Policy for Forever Buddy</h1>
+  <p class="updated">Last updated: October 21, 2026</p>
+
+  <p class="draft-warning"><strong>Publication checklist:</strong> Before publishing, confirm that the advertising and consent descriptions match the final AdMob configuration and app behavior.</p>
+
+  <p>This policy explains how Libor Mazanek (“we,” “us,” or “our”) handles information when you use Forever Buddy (the “App”).</p>
+
+  <h2>1. Information the App uses</h2>
+  <ul>
+    <li><strong>Battle.net sign-in and game profile data.</strong> If you choose to sign in, the App starts a Battle.net authorization flow. The authorization code and state are sent to our backend to complete the exchange. The resulting time-limited access token is stored on your device using the platform secure-storage facility and is used to request the Battle.net profile data you ask to view. This can include character, guild, realm, and related game-profile information. The App does not ask you for your Battle.net password.</li>
+    <li><strong>App settings and recent searches.</strong> The App stores your selected game region, game version, realm, and a limited history of recently viewed characters and guilds on your device. These preferences and recent-search entries are stored locally.</li>
+    <li><strong>Optional diagnostics.</strong> If you enable the API-call counter in Settings, the App temporarily records request URLs, methods, response status, response size, and duration in memory so you can inspect them in the App. The recent log is limited to 200 entries. It is not sent to us by the App and is cleared when you disable or clear the counter, or when the App process ends.</li>
+    <li><strong>Market searches and requests.</strong> When you use market, item, or price-history features, the App sends relevant search terms, item identifiers, and selected region, game version, realm, or auction-house information to the Forever Buddy backend. The backend returns cached auction-market and price-history data.</li>
+    <li><strong>Advertising data.</strong> The App uses Google Mobile Ads (AdMob) to request banner ads. Google and its advertising partners may process device and advertising identifiers, IP address, ad delivery and interaction information, and related diagnostics, subject to your consent choices, the ad configuration, and Google’s policies.</li>
+  </ul>
+
+  <h2>2. Where information is processed and shared</h2>
+  <ul>
+    <li><strong>Blizzard Entertainment / Battle.net:</strong> The App communicates with Battle.net OAuth and game-data services to authorize sign-in and retrieve the game data you request.</li>
+    <li><strong>Forever Buddy backend:</strong> The App sends the sign-in exchange and market-related requests described above to the backend operated for the App. The backend is hosted using Oracle Cloud Infrastructure.</li>
+    <li><strong>Google Mobile Ads:</strong> The advertising SDK communicates with Google and its ad partners to request and measure ads. See <a href="https://policies.google.com/privacy">Google’s Privacy Policy</a>.</li>
+    <li><strong>Image providers:</strong> Some game-item images may be loaded from public image/CDN services, including Wowhead/Zamimg.</li>
+  </ul>
+  <p>The backend temporarily keeps one-time OAuth state needed to validate a sign-in callback. It is discarded after use or expiry. The backend does not persist authorization codes, access tokens, account/profile data, market search queries, or user-linked request/IP logs.</p>
+
+  <h2>3. Storage and retention</h2>
+  <ul>
+    <li>The Battle.net access token remains on your device until it expires or you log out. Logging out removes the locally stored token. You can also manage or revoke the App’s authorization through your Battle.net account settings.</li>
+    <li>Recent character and guild entries remain on your device until you remove them, clear the relevant app data, or uninstall the App. The App provides controls to remove recent entries.</li>
+    <li>Public World of Warcraft auction-market data collected by the backend is stored in its Oracle VM database and used to provide market summaries and price history. The database does not store user data. The App queries and displays the public market data; users do not upload or create market snapshots.</li>
+    <li>One-time OAuth state is discarded after it is used or expires. The backend does not retain the other user-submitted information listed above.</li>
+  </ul>
+
+  <h2>4. Your choices and requests</h2>
+  <p>You can use the App without signing into Battle.net, although account-specific features require sign-in. You can log out from within the App, remove recent entries, and disable or clear the optional API-call counter. Uninstalling the App removes its locally stored data, subject to Android device backup behavior.</p>
+  <p>To ask a question or make a privacy request about information handled by us or our backend, contact <a href="mailto:libor.mazanek@gmail.com">libor.mazanek@gmail.com</a>. We will review and respond to privacy requests as required by applicable law.</p>
+
+  <h2>5. Security</h2>
+  <p>Remote App-to-service requests use HTTPS. The App stores the Battle.net access token using Android secure storage rather than ordinary app preferences. No method of electronic storage or transmission is completely secure, and we cannot guarantee absolute security.</p>
+
+  <h2>6. International processing</h2>
+  <p>Blizzard, Google, and our infrastructure providers may process information in countries other than the country where you live.</p>
+
+  <h2>7. Children</h2>
+  <p>Forever Buddy is intended for a general audience and is suitable for users of all ages. It is not specifically directed to children, and the App does not impose a minimum age restriction. The data practices described in this policy, including processing by third-party services such as Google Mobile Ads, may apply to anyone who uses the App. Parents or guardians with a privacy question or request concerning a child’s use of the App can contact us using the details below. We will handle requests in accordance with applicable law.</p>
+
+  <h2>8. Changes to this policy</h2>
+  <p>We may update this policy when the App or its data practices change. We will publish the revised policy at the same URL and update the “Last updated” date. If a change requires additional notice or consent, we will provide it as required by applicable law.</p>
+
+  <h2>9. Contact</h2>
+  <p>Privacy questions: Libor Mazanek, <a href="mailto:libor.mazanek@gmail.com">libor.mazanek@gmail.com</a>.</p>
+
+  <h2>Third-party service information</h2>
+  <ul>
+    <li><a href="https://policies.google.com/privacy">Google Privacy Policy</a></li>
+    <li><a href="https://www.blizzard.com/legal">Blizzard Legal / Privacy Information</a></li>
+  </ul>
+</body>
+</html>
